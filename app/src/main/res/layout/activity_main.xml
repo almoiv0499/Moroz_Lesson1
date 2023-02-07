@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:background="@drawable/rounded_for_text_view"
+        android:padding="10dp"
         android:text="@string/choose_what_do_you_want"
         android:textColor="@color/black"
         android:textSize="23sp"
@@ -74,13 +76,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:background="@drawable/rounded_for_text_view"
         android:gravity="center"
+        android:padding="10dp"
         android:textColor="@color/black"
         android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/get_size_of_order"/>
+        app:layout_constraintTop_toBottomOf="@id/get_size_of_order" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
