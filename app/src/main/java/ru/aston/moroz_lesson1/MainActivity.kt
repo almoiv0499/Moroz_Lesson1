@@ -9,5 +9,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //commit and merge feature2 to development
+        //commit2 for feature2 branch
     }
+
 }
