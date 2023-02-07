@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //commit and merge feature2 to development
+        //commit2 for feature2 branch
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -106,5 +107,6 @@ class MainActivity : AppCompatActivity() {
         super.onSaveInstanceState(outState, outPersistentState)
         outState.putParcelableArrayList(GET_ORDER_LIST_KEY, ArrayList(orderList))
     }
+
 
 }
