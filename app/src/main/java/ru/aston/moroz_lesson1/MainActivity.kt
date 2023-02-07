@@ -35,6 +35,8 @@ class MainActivity : AppCompatActivity() {
         binding.getSizeOfOrder.setOnClickListener {
             binding.orderSize.text = orderList.size.toString()
         }
+
+        //commit and merge (to development branch) for feature branch
     }
 
     private fun chooseMenuItem() {
