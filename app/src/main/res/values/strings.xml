@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Moroz_Lesson1</string>
+    <string name="to_pizza_order">To Pizza order</string>
+    <string name="choose_what_do_you_want">Choose what do you want:</string>
+    <string name="to_hotdog_order">To HotDog order</string>
+    <string name="to_burger_order">To Burger order</string>
+    <string name="pizza_info">Pizza: %s with size %d and quantity: %d</string>
+    <string name="burger_info">Burger: %s with quantity: %d</string>
+    <string name="hotDog_info">HotDog: %s with size: %d</string>
+    <string name="name_pizza">Pizza</string>
+    <string name="burger_name">Burger</string>
+    <string name="hotDog_name">HotDog</string>
+    <string name="get_order_size">Get order size</string>
 </resources>
