@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:background="@drawable/rounded_for_text_view"
+        android:padding="10dp"
         android:text="@string/choose_what_do_you_want"
         android:textColor="@color/black"
         android:textSize="23sp"
@@ -22,48 +24,44 @@
         app:layout_constraintVertical_chainStyle="packed" />
 
     <com.google.android.material.button.MaterialButton
+        style="@style/CustomButtonStyle"
         android:id="@+id/to_hotDog_order"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
         android:text="@string/to_hotdog_order"
-        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/to_burger_order"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/title_choose_menu_item" />
 
     <com.google.android.material.button.MaterialButton
+        style="@style/CustomButtonStyle"
         android:id="@+id/to_burger_order"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
         android:text="@string/to_burger_order"
-        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/to_pizza_order"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/to_hotDog_order" />
 
     <com.google.android.material.button.MaterialButton
+        style="@style/CustomButtonStyle"
         android:id="@+id/to_pizza_order"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
         android:text="@string/to_pizza_order"
-        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/get_size_of_order"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/to_burger_order" />
 
     <com.google.android.material.button.MaterialButton
+        style="@style/CustomButtonStyle"
         android:id="@+id/get_size_of_order"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
         android:text="@string/get_order_size"
-        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/order_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -74,13 +72,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:background="@drawable/rounded_for_text_view"
         android:gravity="center"
+        android:padding="10dp"
         android:textColor="@color/black"
         android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/get_size_of_order"/>
+        app:layout_constraintTop_toBottomOf="@id/get_size_of_order" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
