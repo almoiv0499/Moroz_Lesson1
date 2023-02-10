@@ -24,48 +24,44 @@
         app:layout_constraintVertical_chainStyle="packed" />
 
     <com.google.android.material.button.MaterialButton
+        style="@style/CustomButtonStyle"
         android:id="@+id/to_hotDog_order"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
         android:text="@string/to_hotdog_order"
-        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/to_burger_order"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/title_choose_menu_item" />
 
     <com.google.android.material.button.MaterialButton
+        style="@style/CustomButtonStyle"
         android:id="@+id/to_burger_order"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
         android:text="@string/to_burger_order"
-        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/to_pizza_order"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/to_hotDog_order" />
 
     <com.google.android.material.button.MaterialButton
+        style="@style/CustomButtonStyle"
         android:id="@+id/to_pizza_order"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
         android:text="@string/to_pizza_order"
-        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/get_size_of_order"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/to_burger_order" />
 
     <com.google.android.material.button.MaterialButton
+        style="@style/CustomButtonStyle"
         android:id="@+id/get_size_of_order"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
         android:text="@string/get_order_size"
-        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/order_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
